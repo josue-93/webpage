@@ -1,0 +1,17 @@
+header {
+    padding: 30px;
+    font-size: 35px;
+    background-color: DodgerBlue;
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 5s; 
+    animation-name: example;
+    animation-duration: 5s;
+}
+@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
