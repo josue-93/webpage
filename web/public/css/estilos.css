@@ -1,7 +1,8 @@
 header {
-    padding: 30px;
-    font-size: 35px;
+    grid-area: header;
     background-color: DodgerBlue;
+    padding: 10px;
+    text-align: center;
     -webkit-animation-name: example; 
     -webkit-animation-duration: 5s; 
     animation-name: example;
@@ -14,4 +15,13 @@ header {
 @keyframes example {
     from {background-color: red;}
     to {background-color: yellow;}
+}
+footer {
+  grid-area: footer;
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+}
+#nombre{
+   background:url('/images/image7.jpg');
 }
