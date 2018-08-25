@@ -1,0 +1,34 @@
+{
+    background-image: url('../marble.jpg');
+    height: 200px;
+    text-align: center;
+}
+#imagenfondo
+{
+    background-image: url('../lago.jpeg');
+    height: 200px;
+    text-align: center;
+}
+#imagenfondo3
+{
+    background-image: url('https://www.curiosfera.com/wp-content/uploads/2017/09/Historia-del-bosque-en-Espa%C3%B1a.jpg');
+    height: 200px;
+    vertical-align: middle;
+    color: "#FFFFFF";
+    text-align: center;
+}
+
+#imagenfondo4
+{
+    background-image: url('https://www.dellanima.de/wp-content/uploads/2013/07/Luftballons.jpg');
+    height: 200px;
+    vertical-align: middle;
+    color: "#FFFFFF";
+    text-align: center;
+}
+.short-text { display: none; }
+
+@media (max-width: 1200px) {
+    .short-text { display: inline-block; }
+    .full-text { display: none; }
+}
