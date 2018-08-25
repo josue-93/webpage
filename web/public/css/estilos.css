@@ -18,10 +18,39 @@ header {
 }
 footer {
   grid-area: footer;
-  background-color: #000000;
+  background-color: DodgerBlue;
   padding: 10px;
   text-align: center;
 }
-#nombre{
-   background:url('/images/image7.jpg');
+.texto_responsive:before{
+  content: attr(data-desktoptext);
+}
+
+@media (max-width:900px) {
+    .texto_responsive:before {
+        content: attr(data-tablettext);
+    }
+}
+
+@media (max-width:400px){
+    .texto_responsive:before {
+        content: attr(data-phonetext);
+    }
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
